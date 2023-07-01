@@ -13,7 +13,7 @@ const useScore = ({
 		width: contextSize.x,
 		height: contextSize.y,
 	});
-	const stave = new Vex.Flow.Stave(staveOffset.x, staveOffset.y, staveWidth);
+	const stave = new Vex.Flow.Stave(staveOffset.x, staveOffset.y, staveWidth, {fill_style: '#000000', spacing_between_lines_px: 12});
 	stave.setContext(context);
 	stave.setClef(clef);
 	stave.setTimeSignature(timeSig);
