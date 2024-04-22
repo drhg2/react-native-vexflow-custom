@@ -8,6 +8,7 @@ const useScore = ({
 	staveWidth,
 	clef = 'treble',
 	timeSig = '4/4',
+	keySig = 'C'
 }) => {
 	const context = new ReactNativeSVGContext(FontPack, {
 		width: contextSize.x,
