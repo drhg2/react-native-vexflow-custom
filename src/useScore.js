@@ -18,6 +18,7 @@ const useScore = ({
 	stave.setContext(context);
 	stave.setClef(clef);
 	stave.setTimeSignature(timeSig);
+	stave.addKeySignature(keySig);
 	stave.draw();
 
 	return [context, stave];
